@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Life Planner by Team Awesome</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+    <link href="/static/life_planner.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/static/life_planner.js"></script>
+  </head>
+  <body>
+    <h1>The Life Planner!</h1>
+    <h2>the best life planner ever. for serious.</h2>
+    <div id="white_block"> 
+    </div>
+    <div id="invisible_space">
+    </div>
+    <div id="lights_logo">
+      <img src="/static/light_green_small.png"> <img src="/static/light_blue_small.png"> <img src="/static/light_purple_small.png">
+    </div>
+    <ul class="message_bar">
+      <a href="/"><li id="active_button">Home</li></a>
+      <a href="/instructions"><li>Instructions</li></a>
+      <a href="/life_planner"><li>Life Planner</li></a>
+      <li id="new_post">New Post
+        <ul class="message_dropdown">
+          <li>
+            <form action="/" method="post" id="post_form">
+              <textarea name="content" type="input/text" col='40' rows='5' ></textarea>
+              <p>
+                <label><input type="checkbox" name="cal_tag" />Add to To Do List</label>
+              </p>
+                <label><input type="checkbox" name="AM" />AM</label>
+                <label><input type="checkbox" name="PM" />PM</label>
+              <p>
+                <label><input type="checkbox" name="mon_tag" />Add to Budget</label>
+              </p>
+              <p>
+                <label><input type="checkbox" name="fla_tag" />Add to Flash Cards</label>
+              </p>
+              <input type="submit" name="submit" /> </form> 
+          </li>
+        </ul>
+      </li>
+      <a href="/favSite"><li>FavSite</li></a>
+      <a href="/settings"><li>Settings</li></a>
+      <a href='/contact'><li>Contact Us</li></a>
+    </ul>
+    <div class="content">
+      <h3>Hello, {{ username }}. This is why you need the Life Planner:</h3>
+      
+      <table>
+        <tr>
+          <td>
+            <img src="/static/disorganized.jpg" /> 
+            <p class="image_subtitles">
+              Is this you? Don't lie.
+            </p>
+          </td>
+          <td>
+      <p>
+        Despite popular belief that not keeping track of your money, time, and studies is a good way to be happy and succeed in college, new research has revealed that being a disorganized slob actually has no correlation to success! What's worse is that even those who tried to become organized were forced to buy separate mediums for recording their schedules, savings, and flashcards. These planners would get lost, flashcards would catch on fire, appointments were missed, and once great lives were reduced to shambles. That is, until the life planner came along and revolutionized organizational technology. A web application that helps you schedule your day, manage your budget, and write flashcards on the go! You can update your life planner on the web to record challenging vocabulary, money spent, and the time of that crazy party! 
+      </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

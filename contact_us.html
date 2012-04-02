@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Life Planner by Team Awesome</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/static/favicon.ico">
+    <link href="/static/life_planner.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/static/life_planner.js"></script>
+  </head>
+  <body>
+    <h1>The Life Planner!</h1>
+    <h2>the best life planner ever. for serious.</h2>
+    <div id="white_block"> 
+    </div>
+    <div id="invisible_space">
+    </div>
+    <div id="lights_logo">
+      <img src="/static/light_green_small.png"> <img src="/static/light_blue_small.png"> <img src="/static/light_purple_small.png">
+    </div>
+    <ul class="message_bar">
+      <a href="/"><li>Home</li></a>
+      <a href="/instructions"><li>Instructions</li></a>
+      <a href="/life_planner"><li>Life Planner</li></a>
+      <li id="new_post">New Post
+        <ul class="message_dropdown">
+          <li>
+            <form action="/contact" method="post" id="post_form">
+              <textarea name="content" type="input/text" col='40' rows='5' ></textarea>
+              <p>
+                <label><input type="checkbox" name="cal_tag" />Add to To Do List</label>
+              </p>
+                <label><input type="checkbox" name="AM" />AM</label>
+                <label><input type="checkbox" name="PM" />PM</label>
+              <p>
+                <labeL><input type="checkbox" name="mon_tag" />Add to Budget</label>
+              </p>
+              <p>
+                <label><input type="checkbox" name="fla_tag" />Add to Flash Cards</label> 
+              </p>
+              <input type="submit" name="submit" />
+            </form>
+          </li>
+        </ul>
+      </li>
+      <a href="/favSite"><li>FavSite</li></a>
+      <a href="/settings"><li>Settings</li></a>
+      <a href='/contact'><li id="active_button">Contact Us</li></a>
+    </ul>
+    <div class="content">
+    
+      <h3>About us:</h3>
+
+      <p>  
+        It was the summer of 2011 when an elite team of young masterminds were assembled for one task, and one task alone. That task was the Life Planner. They were given a mere three days to organize the lives of college students for decades and decades to come. In future years they would be dubbed revolutionary, as their web app improved; adding features to help students keep track of their eating habits, edit their Google calendars, and manage their flashcards. But despite huge success and constant harassment by the paparazzi, these three young Einsteins managed to remain the most modest people to have ever walked the Earth. 
+      </p>
+      <h4>Hannah Kronenberg <a class="email_link" href="mailto:hannah.kronenberg@gmail.com">hannah.kronenberg@gmail.com</a></h4>
+       <table>
+        <tr>
+          <td>
+            <img src="/static/garrett.jpeg" title="Jim chilling out." alt="Jim chilling out"/>
+          </td>
+          <td>
+            <p>
+        yo my name is Hannah but you can call me jim, i know my last is weird but you'll get over it. i like long walks on the beach, starring at the sun, and i thoroughly enjoy laughing. I rep Trinity high School, New York City is my hood and is where i make money. I try to be myself and i'm a pretty chill chick, oh and apple fo life
+            </p>
+          </td>
+        </tr>
+      </table>
+
+      <h4>Jeremy Kao <a class="email_link" href="mailto:jermsthekao@yahoo.com">jermsthekao@yahoo.com</a> </h4>
+       <table>
+        <tr>
+          <td>
+            <img src="/static/jeremy_image.jpg" title="Jeremy." alt="Jeremy"/>
+          </td>
+          <td>      
+            <p>
+              <a href="http://www.youtube.com/watch?v=oHg5SJYRHA0">Hello World!</a> I'm Jeremy, and I like eating cheese snacks, writing raps, and learning new things. I also like making foo, building things, and doing art. I'm not a foo.
+            </p>
+          </td>
+        </tr>
+      </table>
+      <h4>Cassandra de Git <a class="email_link" href="mailto:cassandra.m.degit@gmail.com">cassandra.m.degit@gmail.com</a> </h4>
+      <table>
+        <tr>
+          <td>
+            <img src="/static/polar_bear.jpg" title="Cassandra in her natural environment." alt="Cassandra in her natural environment"/>
+          </td>
+          <td>
+            <p>
+              Cassandra comes from the mythical land of Canada, where she is pursuing a degree in Interactive Art and Technology from Hogwarts School of Witchcraft and Wizardry. Cassie likes galavanting across the tundra, hunting caribou and Canada Geese. She is having difficulty adjusting to American English compared to its Canadian counterpart, especially the fact that no one says washroom or sorry, only sarry. 
+            </p>
+          </td>
+        </tr>
+      </table> 
+    </div>
+  </body>
+</html>
+
