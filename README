@@ -1,0 +1,18 @@
+LifePlanner README
+Author: Jeremy Kao, Hannah Kronenberg, Cassandra de Git
+Contact: j7kao@ucsd.edu
+Overview: A multi-utility web application featuring a flashcard utility, 
+	      scheduling utility, and money-managing utility all controlled by a 
+		  universal message box. The project is hosted on Google AppEngine and
+		  is connected to one's Google Account.
+Requirements: Google Account with access to AppEngine
+Languages: Django, Python, HTML, CSS, Javascript
+Files: App.yaml - configuration file for AppEngine
+	   life_planner.py - python file containing all the backend work
+	   contact_us.html - html page with contact information
+	   index.html - main html page
+	   instructions.html - html page with instructions on how to use app
+	   life_planner.html - html page where utilities ares displayed
+	   settings.html - html page to control settings
+	   static_files - folder containing static files, such as CSS and JS files and images.
+	   
